@@ -41,7 +41,8 @@ class View(ft.UserControl):
                               height=500,
                               )
 
-        self._ddNerc = ft.Dropdown(label="Select NERC")
+        self._ddNerc = ft.Dropdown(label="Select NERC",
+                                   on_change=self._controller.readNerc)
 
 
         self._txtYears = ft.TextField(label="Insert max years")
