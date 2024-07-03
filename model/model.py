@@ -10,6 +10,7 @@ class Model:
 
 
 
+
     def worstCase(self, nerc, maxY, maxH):
         self._listaEventiPerNerc = DAO.getAllEvents(nerc)
         self._nCoinvolti = 0

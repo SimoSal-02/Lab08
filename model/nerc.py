@@ -5,6 +5,7 @@ class Nerc:
     _id: int
     _value: str
 
+
     @property
     def id(self):
         return self._id

@@ -14,6 +14,7 @@ class Event:
     _date_event_finished: datetime
     _demand_loss: int
 
+
     @property
     def id(self):
         return self._id

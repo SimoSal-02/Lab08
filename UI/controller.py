@@ -15,6 +15,7 @@ class Controller:
         self._maxY = None
         self._maxH = None
 
+
     def handleWorstCase(self, e):
         self._view._txtOut.controls.clear()
         self._maxY = int(self._view._txtYears.value)
